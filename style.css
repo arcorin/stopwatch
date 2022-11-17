@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    text-align: center;
+    /*
+    border: 1px solid lightsteelblue;
+    */
+}
+
+
+body,
+footer,
+.container,
+.card,
+.card-header,
+.card-body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.container {
+    z-index: 1;
+    padding-bottom: 120px;
+}
+
+
+.card {
+    width: 300px;
+    margin: 20px;
+    min-height: 220px;
+    
+}
+
+
+.card-header,
+.card-body {
+    width: 100%; 
+}
+
+
+.card-body {
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+
+.time-display {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 95%;
+}
+
+
+
+#main-time-header,
+#lap-header {
+    color: gray;
+    text-align: left;
+}
+
+
+#lap-text {
+    color: green;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+.btn {
+    width: 80px;
+    padding: 5px;
+    margin: 15px 5px 5px;
+}
+
+
+#laps-card {
+    border: none;
+    
+}
+
+
+
+table {
+    width: 100%;
+}
+
+
+th,
+td {
+    text-align: center; 
+    padding: 10px;
+    color: gray;
+}
+
+
+#header-row {
+    border-bottom: 1px solid gray;
+}
+
+
+label {
+    text-align: left;
+    width: 90%;
+    color: gray;
+}
+
+
+.saved-card {
+    min-height: 80px;
+    padding: 10px;
+}
+
+
+.saved-card td:nth-child(1){
+    text-align: left;
+}
+
+
+.saved-card td:nth-child(2){
+    text-align: right;
+}
+
+
+footer {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    background-color: white;
+    color: gray; 
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
